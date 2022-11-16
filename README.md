@@ -34,10 +34,17 @@ Así también un archivo generado en .txt y archivos de serialización en format
 
 En mi caso utilicé SQL 2019 developer edition.
 
-El diagrama de clases utilizado es el siguiente:
+### El diagrama de clases utilizado es el siguiente:
 
-# /* Acá insertaré captura del diagrama una vez finalizado */
 
+#### Diagrama de clases para proyecto Entidades:
+![DiagramaEntidades](https://user-images.githubusercontent.com/52410521/202105435-9a073b95-ba12-4c9e-84f3-d6a0d00925b0.png)
+
+#### Diagrama de clases para proyecto de Windows Forms:
+![DiagramaForms](https://user-images.githubusercontent.com/52410521/202105465-186d7dcb-1a3a-4efa-bbae-cdc4fbce00e1.png)
+
+#### Diagrama de clases para proyecto de Tests Unitarios:
+![DiagramaTests](https://user-images.githubusercontent.com/52410521/202105481-e9db63f7-d7b1-48b8-8fa1-cdc8c68a12b7.png)
 
 
 
