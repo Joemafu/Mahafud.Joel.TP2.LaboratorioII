@@ -16,10 +16,19 @@ A su vez, esta cuenta con algunas estadísticas históricas que hacen un poco de
 La solución está implementada en C# y Net Core 5.0, utilizando base de datos MS SQL para la persistencia de datos. 
 
 Los archivos de base de datos se encuentran en el subdirectorio 
+
 ```sh
-\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Truco_db.mdf
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Truco_db_log.ldf
 ```
+
 Así también un archivo generado en .txt y archivos de serialización en formato XML y JSON.
+
+```sh
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Historial_De_Flores.json
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Historial_de_manos.XML
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Historial_De_Pardas.txt
+```
 
 #### Cabe mencionar que para que la funcionalidad de lectura y escritura de base de datos funcione correctamente se debe estar corriendo de forma local un servidor SQL con la base provista montada.
 
