@@ -33,7 +33,7 @@ namespace TestEntidades
 
 
             //Assert
-            Assert.IsFalse(ronda.TantoCantado);
+            Assert.AreEqual(ronda.GanadorEnvido,jugador);
         }
 
         [TestMethod]
