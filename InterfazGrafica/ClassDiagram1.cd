@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TrucoArgentino.FrmHistorialBase">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>FrmHistorialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmHistorialDePardas">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmHistorialDePardas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmHistorialFlores">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmHistorialFlores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmHistorialManos">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>FrmHistorialManos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmHistorialPartidas">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAgCAAAA=</HashCode>
+      <FileName>FrmHistorialPartidas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmHome">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACCCACAAQACAAQACAAIEgAAQACAAAAAQAAA=</HashCode>
+      <FileName>FrmHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.FrmMesa" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIDFkgEAJCQD4wgAAhCDQITeMA8NiJwVyOYCQG0EAcA=</HashCode>
+      <FileName>FrmMesa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TrucoArgentino.FrmSetPartida">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAEACAhAACCAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>FrmSetPartida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrucoArgentino.Program">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

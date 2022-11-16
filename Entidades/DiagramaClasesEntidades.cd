@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Delegado">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Entidades.Delegado.DelegadoReloj" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Delegado.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ExcepcionBaseDeDatos">
+    <Position X="16.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExcepcionBaseDeDatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Historial">
+    <Position X="12.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Historial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Jugador">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAACEAAAAgMAAAADAAAAEAAAADAAAAAg=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Mano">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAUgAiBEAAAAAAJAIAIA4AAAACAAiA=</HashCode>
+      <FileName>Mano.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Naipe">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAACAAAQAAEgEAAAAAAAAAAEIAAAAFIAAABSiA=</HashCode>
+      <FileName>Naipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Partida">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIhAAAAAAAAAAAAEAAAABAABAAAAAAAAQAAAAAAJQAA=</HashCode>
+      <FileName>Partida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Reloj">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reloj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Ronda" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gDCCFCiBgAAogQEeCgBSUgAAUACBIEAAAKoBQAACASg=</HashCode>
+      <FileName>Ronda.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Serializador&lt;T&gt;">
+    <Position X="18" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAgAAAAAAAAA=</HashCode>
+      <FileName>Serializador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.SQL">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAARAAAAAAAAgAAAAAAAAAAACAAAAAIAAABAAAAAE=</HashCode>
+      <FileName>SQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Txt">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAIAAABAAAAAA=</HashCode>
+      <FileName>Txt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
