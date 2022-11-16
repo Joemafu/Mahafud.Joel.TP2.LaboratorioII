@@ -17,7 +17,7 @@ La solución está implementada en C# y Net Core 5.0, utilizando base de datos M
 
 Los archivos de base de datos se encuentran en el subdirectorio 
 ```sh
-\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows
+\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows
 ```
 Así también un archivo generado en .txt y archivos de serialización en formato XML y JSON.
 

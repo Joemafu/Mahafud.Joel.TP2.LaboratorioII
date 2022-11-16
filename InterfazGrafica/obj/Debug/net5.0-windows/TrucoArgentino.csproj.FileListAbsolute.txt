@@ -1,0 +1,125 @@
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.exe
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.deps.json
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.json
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.dev.json
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.AssemblyReference.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHome.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmMesa.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.GenerateResource.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfoInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfo.cs
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.genruntimeconfig.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmSetPartida.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\Entidades.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\Entidades.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CopyComplete
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.AssemblyReference.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHome.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmMesa.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmSetPartida.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.GenerateResource.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfoInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfo.cs
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.exe
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.deps.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.dev.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\Entidades.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\Entidades.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CopyComplete
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.genruntimeconfig.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialManos.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialPartidas.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialBase.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialFlores.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\FrmHome\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialDePardas.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.exe
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.deps.json
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.json
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.dev.json
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\ref\TrucoArgentino.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.pdb
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.AssemblyReference.cache
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialBase.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialDePardas.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialFlores.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialManos.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialPartidas.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHome.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmMesa.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmSetPartida.resources
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.GenerateResource.cache
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfoInputs.cache
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfo.cs
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CopyComplete
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\ref\TrucoArgentino.dll
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.pdb
+C:\Users\Joel\Desktop\Nueva carpeta\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.genruntimeconfig.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.exe
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.deps.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.runtimeconfig.dev.json
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Entidades.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\bin\Debug\net5.0-windows\Entidades.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.AssemblyReference.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialBase.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialDePardas.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialFlores.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialManos.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHistorialPartidas.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmHome.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmMesa.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.FrmSetPartida.resources
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.GenerateResource.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfoInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.AssemblyInfo.cs
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.csproj.CopyComplete
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\ref\TrucoArgentino.dll
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.pdb
+G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\InterfazGrafica\obj\Debug\net5.0-windows\TrucoArgentino.genruntimeconfig.cache

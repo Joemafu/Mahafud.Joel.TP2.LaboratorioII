@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\TestEntidades\\TestEntidades.csproj": {}
+    "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\InterfazGrafica\\FormsTrucoArgentino.csproj": {}
   },
   "projects": {
     "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Entidades\\Entidades.csproj": {
@@ -64,29 +64,29 @@
         }
       }
     },
-    "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\TestEntidades\\TestEntidades.csproj": {
+    "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\InterfazGrafica\\FormsTrucoArgentino.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\TestEntidades\\TestEntidades.csproj",
-        "projectName": "TestEntidades",
-        "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\TestEntidades\\TestEntidades.csproj",
+        "projectUniqueName": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\InterfazGrafica\\FormsTrucoArgentino.csproj",
+        "projectName": "FormsTrucoArgentino",
+        "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\InterfazGrafica\\FormsTrucoArgentino.csproj",
         "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\TestEntidades\\obj\\",
+        "outputPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\InterfazGrafica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
             "projectReferences": {
               "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Entidades\\Entidades.csproj": {
                 "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Entidades\\Entidades.csproj"
@@ -101,24 +101,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "dependencies": {
-            "MSTest.TestAdapter": {
+            "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.3, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.0.2, )"
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -134,6 +122,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"

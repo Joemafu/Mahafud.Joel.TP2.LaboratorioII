@@ -6537,8 +6537,8 @@
     },
     "Entidades/1.0.0": {
       "type": "project",
-      "path": "../Mahafud.Joel.TP2/Entidades.csproj",
-      "msbuildProject": "../Mahafud.Joel.TP2/Entidades.csproj"
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6577,8 +6577,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Mahafud.Joel.TP2\\Entidades.csproj": {
-              "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Mahafud.Joel.TP2\\Entidades.csproj"
+            "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Entidades\\Entidades.csproj": {
+              "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Entidades\\Entidades.csproj"
             }
           }
         }

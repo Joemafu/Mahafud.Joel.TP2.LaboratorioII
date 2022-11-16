@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Tanto": 31,
+    "Naipes": [
+      {
+        "Palo": 3,
+        "Numero": 10,
+        "ValorTanto": 0,
+        "ValorNaipe": 10
+      },
+      {
+        "Palo": 3,
+        "Numero": 6,
+        "ValorTanto": 6,
+        "ValorNaipe": 6
+      },
+      {
+        "Palo": 3,
+        "Numero": 5,
+        "ValorTanto": 5,
+        "ValorNaipe": 5
+      }
+    ],
+    "TieneFlor": true
+  }
+]
