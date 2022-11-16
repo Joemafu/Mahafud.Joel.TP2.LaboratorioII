@@ -17,6 +17,10 @@ namespace Entidades
             
         }
 
+        /// <summary>
+        /// Lee el archivo Historial_De_Pardas.txt del directorio actual.
+        /// </summary>
+        /// <returns>Retorna un string con el contenido del archivo.</returns>
         public static string Leer()
         {
             string ret = "";
@@ -37,6 +41,12 @@ namespace Entidades
             return ret;
         }
 
+        /// <summary>
+        /// Guarda un string con información de una parda.
+        /// </summary>
+        /// <param name="partida">Partida de donde extraer los datos.</param>
+        /// <param name="naipe1">Naipe empardado 1</param>
+        /// <param name="naipe2">Naipe empardado 2</param>
         public static void Guardar(Partida partida, Naipe naipe1, Naipe naipe2)
         {
             StringBuilder sb = new StringBuilder();

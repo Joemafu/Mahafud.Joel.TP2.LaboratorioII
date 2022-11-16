@@ -21,4 +21,3 @@ G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\Mah
 G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\Mahafud.Joel.TP2\obj\Debug\net5.0\Entidades.dll
 G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\Mahafud.Joel.TP2\obj\Debug\net5.0\ref\Entidades.dll
 G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\Mahafud.Joel.TP2\obj\Debug\net5.0\Entidades.pdb
-G:\Mi unidad\Workspace\2º Cuatrimestre - C#\Laboratorio-II\Mahafud.Joel.TP2\Mahafud.Joel.TP2\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache

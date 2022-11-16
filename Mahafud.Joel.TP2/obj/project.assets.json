@@ -454,7 +454,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mahafudj\\.nuget\\packages\\": {}
+    "C:\\Users\\Joel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -462,11 +462,11 @@
       "projectUniqueName": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Mahafud.Joel.TP2\\Entidades.csproj",
       "projectName": "Entidades",
       "projectPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Mahafud.Joel.TP2\\Entidades.csproj",
-      "packagesPath": "C:\\Users\\mahafudj\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
       "outputPath": "G:\\Mi unidad\\Workspace\\2º Cuatrimestre - C#\\Laboratorio-II\\Mahafud.Joel.TP2\\Mahafud.Joel.TP2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mahafudj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

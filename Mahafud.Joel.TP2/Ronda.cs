@@ -251,6 +251,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Distingue si se está aceptando el tanto o la jugada y llama al método correspondiente.
+        /// </summary>
+        /// <param name="jugadorQueAcepta">Jugador que quiere</param>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
         public void Aceptar(Jugador jugadorQueAcepta, Jugador jugadorPasivo)
         {
             if (this.trucoCantado)
@@ -263,6 +268,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Distingue si se está rechazando el tanto o la jugada y actúa o llama al método correspondiente.
+        /// </summary>
+        /// <param name="jugadorQueAcepta">Jugador que no quiere</param>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
         public void Declinar(Jugador jugadorPasivo)
         {
             if (this.tantoCantado)
@@ -275,12 +285,22 @@ namespace Entidades
             }            
         }
 
+        /// <summary>
+        /// Intercambia qué jugador pasa a tener el "quiero".
+        /// </summary>
+        /// <param name="jugadorQueCede">Jugador que tenía el quiero</param>
+        /// <param name="JugadorQueRecibe">Jugador que ahora tiene el quiero</param>
         public void CederElQuiero(Jugador jugadorQueCede, Jugador JugadorQueRecibe)
         {
             jugadorQueCede.TieneElQuiero = false;
             JugadorQueRecibe.TieneElQuiero = true;
         }
 
+        /// <summary>
+        /// Define si se está aceptando un truco cantado o retrucando y actúa según
+        /// </summary>
+        /// <param name="jugadorQueRetruca">Jugador que retrucó</param>
+        /// <param name="jugadorPasivo">Jugador que tiene el quiero</param>
         public void Retrucar(Jugador jugadorQueRetruca, Jugador jugadorPasivo)
         {
             if (this.trucoCantado)
@@ -291,6 +311,11 @@ namespace Entidades
             this.valorDelTrucoSiSeAcepta++;
         }
 
+        /// <summary>
+        /// Se setean las consecuencias de un truco aceptado.
+        /// </summary>
+        /// <param name="jugadorQueAcepta">Jugador que aceptó</param>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
         public void AceptarTruco(Jugador jugadorQueAcepta, Jugador jugadorPasivo)
         {
             this.valorDelTrucoActual = this.valorDelTrucoSiSeAcepta;
@@ -321,6 +346,11 @@ namespace Entidades
             this.ReavivarEnvido(2, CalcularValorFaltaEnvido(partida));
         }
 
+        /// <summary>
+        /// Se setean las consecuencias de un envido aceptado.
+        /// </summary>
+        /// <param name="jugadorQueAcepta">Jugador que acepta</param>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
         public void AceptarEnvido(Jugador jugadorQueAcepta, Jugador jugadorPasivo)
         {
             this.valorDelTantoActual = this.valorDelTantoSiSeAcepta;
@@ -335,6 +365,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Se setean las consecuencias de un envido no querido
+        /// </summary>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
         public void DeclinarEnvido(Jugador jugadorPasivo)
         {
             this.ganadorEnvido = jugadorPasivo;
@@ -342,6 +376,11 @@ namespace Entidades
             this.tantoCantado = false;
         }
 
+        /// <summary>
+        /// Se reparte una mano nueva al jugador 1 y una al jugador 2. Valida que no haya repetidas entre ambas manos.
+        /// </summary>
+        /// <param name="j1">Jugador 1</param>
+        /// <param name="j2">Jugador 2</param>
         public static void Repartir(Jugador j1, Jugador j2)
         {
             j1.Mano = new Mano(true);
@@ -356,19 +395,28 @@ namespace Entidades
             Historial.Guardar();
         }
 
+        /// <summary>
+        /// Calcula el valor de un Falta Envido
+        /// </summary>
+        /// <param name="partida">Partida que se está jugando</param>
+        /// <returns>Retorna el valor de la Falta</returns>
         public int CalcularValorFaltaEnvido(Partida partida)
         {
             int ret;
-            if (partida.CalcularGanador() is null)
+            Jugador puntero = partida.CalcularGanador();
+            if (puntero is null)
             {
                 ret = 15 - partida.Jugador1.PuntajeGeneral;
             }else
             {
-                ret = 15 - partida.CalcularGanador().PuntajeGeneral;
+                ret = 15 - puntero.PuntajeGeneral;
             }
             return ret;
         }
 
+        /// <summary>
+        /// Setea las consecuencias acorde a una ronda finalizada
+        /// </summary>
         public void TerminarRonda()
         {
             if (this.ganadorEnvido is not null)
@@ -379,7 +427,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Trae el jugador y supuntaje en formato de string.
+        /// Trae el jugador y su puntaje en formato de string.
         /// </summary>
         /// <param name="partida">Partida a la cual referimos</param>
         /// <param name="puesto">Posición del jugador a mostrar (1 0 2)</param>
@@ -405,6 +453,10 @@ namespace Entidades
             return ret;
         }
 
+        /// <summary>
+        /// Genera un string con el detalle del resultado de la ronda.
+        /// </summary>
+        /// <returns>Detalle del resultado de la ronda</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

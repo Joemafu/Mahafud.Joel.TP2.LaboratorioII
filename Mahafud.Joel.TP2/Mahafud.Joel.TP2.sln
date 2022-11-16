@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrucoArgentino", "..\FrmHome\TrucoArgentino.csproj", "{5D9CEB36-B0A8-4E15-BA0C-99E8B9624342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEntidades", "..\TestEntidades\TestEntidades.csproj", "{0977FC40-6706-4ADB-8B33-5B9361B6EEA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D9CEB36-B0A8-4E15-BA0C-99E8B9624342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9CEB36-B0A8-4E15-BA0C-99E8B9624342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9CEB36-B0A8-4E15-BA0C-99E8B9624342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0977FC40-6706-4ADB-8B33-5B9361B6EEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0977FC40-6706-4ADB-8B33-5B9361B6EEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0977FC40-6706-4ADB-8B33-5B9361B6EEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0977FC40-6706-4ADB-8B33-5B9361B6EEA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

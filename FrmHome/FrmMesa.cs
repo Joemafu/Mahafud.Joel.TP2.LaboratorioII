@@ -34,6 +34,11 @@ namespace TrucoArgentino
             Reloj.TasaDeRefrescoSuperada += this.RefrescarReloj;
         }
 
+        /// <summary>
+        /// Prepara todo para iniciar una nueva ronda
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmMesa_Load(object sender, EventArgs e)
         {
             //Seteo el nombre de los jugadores a cada lado de la mesa
@@ -71,6 +76,9 @@ namespace TrucoArgentino
             this.lblCantoJugador2.Text = "";
         }
 
+        /// <summary>
+        /// Setea todo acorde a un cambio de turno 
+        /// </summary>
         private void CambiarDeTurno()
         {
             //Si es el turno del jugador 1 cambio al jugador 2 y vice versa, seteando las opciones disponibles según corresponda
@@ -88,6 +96,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Refresca los controles del form.
+        /// </summary>
         private void RefrescarControles()
         {
             this.lblValorDelTruco.Text = $"Valor del Truco: {this.partida.Ronda.ValorDelTrucoActual}";
@@ -107,9 +118,13 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Lógica de controles disponibles de un jugador según la circunstancia de la partida 
+        /// </summary>
+        /// <param name="jugador">Jugador a habilitar</param>
+        /// <param name="controles">Array de controles del jugador a habilitar</param>
         private void HabilitarJugador(Jugador jugador, Control[] controles)
         {
-            //lógica de botones disponibles según la circunstancia de la partida 
             /*
              * 0 = Boton Jugar Carta
              * 1 = Boton Envido
@@ -122,7 +137,7 @@ namespace TrucoArgentino
              * 8 = CheckBox Ocultar Mano
              * 9 = Etiqueta de cantado
              * 
-             * */
+             */
 
             this.lblPosicion1.Text = this.partida.Ronda.MostrarPosicion(this.partida, 1);
             this.lblPosicion2.Text = this.partida.Ronda.MostrarPosicion(this.partida, 2);
@@ -213,6 +228,11 @@ namespace TrucoArgentino
             controles[9].Text = "";
         }
 
+        /// <summary>
+        /// Deshabilita las opciones del jugador que está en modo pasivo
+        /// </summary>
+        /// <param name="jugador">Jugador a deshabilitar</param>
+        /// <param name="controles">Array de controles de dicho jugador</param>
         private void DeshabilitarJugador(Jugador jugador, Control[] controles)
         {
             foreach (Control item in controles)
@@ -223,6 +243,10 @@ namespace TrucoArgentino
             controles[9].Enabled = true;
         }
 
+        /// <summary>
+        /// Oculta la mano del jugador
+        /// </summary>
+        /// <param name="grpBx">GroupBox que contiene los RadioButton que hacen de naipes a ocultar</param>
         private void OcultarNaipes (GroupBox grpBx)
         {
             foreach (object item in grpBx.Controls)
@@ -234,6 +258,10 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Muestra la mano del jugador
+        /// </summary>
+        /// <param name="grpBx">GroupBox que contiene los RadioButton que hacen de naipes a mostrar</param>
         private void MostrarNaipes(GroupBox grpBx, Jugador j)
         {
             int i = 0;
@@ -248,16 +276,31 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Ocultar naipes de Jugador 1 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void chkBxOcultarMano1_CheckedChanged(object sender, EventArgs e)
         {
             AlternarMostrarOcultar(this.grpBxJugador1, this.partida.Jugador1);
         }
 
+        /// <summary>
+        /// Ocultar naipes de Jugador 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void chkBxOcultarMano2_CheckedChanged(object sender, EventArgs e)
         {
             AlternarMostrarOcultar(this.grpBxJugador2, this.partida.Jugador2);
         }
 
+        /// <summary>
+        /// Alternar entre mostrar y ocultar naipes de un jugador según su estado actual
+        /// </summary>
+        /// <param name="grpBx">GroupBox que contiene los RadioButton que hacen de naipes a mostrar</param>
+        /// <param name="j">Jugador en cuestión</param>
         private void AlternarMostrarOcultar(GroupBox grpBx, Jugador j)
         {
             foreach (object item in grpBx.Controls)
@@ -277,6 +320,11 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Cancela la partida con una advertencia previa
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelarPartida_Click(object sender, EventArgs e)
         {
             if(MessageBox.Show("Si se cancela la partida no se guardará en la base de datos. ¿Está seguro de cancelar?","Advertencia", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning)==DialogResult.OK)
@@ -285,6 +333,11 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Juega el naipe seleccionado del jugador 1
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnJugarNaipe1_Click(object sender, EventArgs e)
         {
             this.partida.Ronda.NaipeJugador1 = ValidarNaipe(this.partida.Jugador1, this.naipesManoJugador1, this.chkBxOcultarMano1);
@@ -294,6 +347,11 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Juega el naipe seleccionado del jugador 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnJugarNaipe2_Click(object sender, EventArgs e)
         {
             this.partida.Ronda.NaipeJugador2 =  ValidarNaipe(this.partida.Jugador2,this.naipesManoJugador2, this.chkBxOcultarMano2);
@@ -303,6 +361,13 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Valida que al jugar un naipe las cartas estés visibles.
+        /// </summary>
+        /// <param name="jugador">Jugador que jugó la carta</param>
+        /// <param name="naipes">Array de RadioButton que contienen la mano del jugador</param>
+        /// <param name="checkBox">CheckBox que define si las cartas están ocultas</param>
+        /// <returns></returns>
         private Naipe ValidarNaipe(Jugador jugador, RadioButton[] naipes, CheckBox checkBox)
         {
             Naipe ret = null;
@@ -328,6 +393,9 @@ namespace TrucoArgentino
             return ret;
         }
 
+        /// <summary>
+        /// Define si se cambia de turno o este ya finalizó.
+        /// </summary>
         private void TerminarOCambiarTurno ()
         {
             if (this.partida.Ronda.NaipeJugador1 is not null && this.partida.Ronda.NaipeJugador2 is not null)
@@ -340,6 +408,10 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Setea el LblBox correspondiente indicando quién jugó qué naipe y en qué mano.
+        /// </summary>
+        /// <param name="naipe">Naipe jugado</param>
         private void JugarNaipe(Naipe naipe)
         { 
             switch (this.partida.Ronda.NumeroDeTurno)
@@ -376,6 +448,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Realiza las acciones correspondientes a un fin de turno.
+        /// </summary>
         void TerminarTurno()
         {
             if (this.partida.Ronda.NaipeJugador1.ValorNaipe > this.partida.Ronda.NaipeJugador2.ValorNaipe)
@@ -450,6 +525,10 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Método que se encarga de colorear y resaltar el naipe ganador en cada mano
+        /// </summary>
+        /// <param name="ganador"></param>
         void ColorearNaipeGanador(int ganador)
         {
             int indiceAColorear = this.partida.Ronda.NumeroDeTurno - 1;
@@ -466,6 +545,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Método que devela los puntos de envido de cada jugador resaltando al ganador
+        /// </summary>
         void CompletarTantos()
         {
             this.lblTanto.Visible = true;
@@ -485,6 +567,11 @@ namespace TrucoArgentino
             this.RefrescarControles();
         }
 
+        /// <summary>
+        /// Jugador 1 canta envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnEnvido1_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador1);
@@ -493,6 +580,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 2 canta envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnEnvido2_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador2);
@@ -501,6 +593,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 1 canta real envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRealEnvido1_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador1);
@@ -509,6 +606,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 2 canta real envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnRealEnvido2_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador2);
@@ -517,6 +619,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 1 canta falta envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFaltaEnvido1_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador1);
@@ -525,6 +632,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 2 canta falta envido
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFaltaEnvido2_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador2);
@@ -533,6 +645,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 1 canta flor
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFlor1_Click(object sender, EventArgs e)
         {
             this.lblValorTanto.Text = $"{this.partida.Jugador1.Nombre} cantó Flor = 3";
@@ -545,6 +662,11 @@ namespace TrucoArgentino
             Serializador<Mano>.SerializarJson(this.partida.Jugador1.Mano, "Historial_De_Flores.json");
         }
 
+        /// <summary>
+        /// Jugador 2 canta flor
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnFlor2_Click(object sender, EventArgs e)
         {
             this.lblValorTanto.Text = $"{this.partida.Jugador2.Nombre} cantó Flor = 3";
@@ -557,6 +679,11 @@ namespace TrucoArgentino
             Serializador<Mano>.SerializarJson(this.partida.Jugador2.Mano, "Historial_De_Flores.json");
         }
 
+        /// <summary>
+        /// Jugador 1 canta truco/retruco/vale cuatro según contexto de la partida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnTruco1_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador1);
@@ -565,6 +692,11 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 2 canta truco/retruco/vale cuatro según contexto de la partida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnTruco2_Click(object sender, EventArgs e)
         {
             this.RecordarQuienCanto(this.partida.Jugador2);
@@ -573,26 +705,50 @@ namespace TrucoArgentino
             this.CambiarDeTurno();
         }
 
+        /// <summary>
+        /// Jugador 1 acepta lo cantado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnQuiero1_Click(object sender, EventArgs e)
         {
             this.Aceptar(this.partida.Jugador1, this.partida.Jugador2);
         }
 
+        /// <summary>
+        /// Jugador 2 acepta lo cantado
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnQuiero2_Click(object sender, EventArgs e)
         {
             this.Aceptar(this.partida.Jugador2, this.partida.Jugador1);
         }
 
+        /// <summary>
+        /// Jugador 1 se va al mazo o rechaza un envido, según contexto de la partida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAlMazo1_Click(object sender, EventArgs e)
         {
             this.Declinar(this.partida.Jugador2);
         }
 
+        /// <summary>
+        /// Jugador 2 se va al mazo o rechaza un envido, según contexto de la partida
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAlMazo2_Click(object sender, EventArgs e)
         {
             this.Declinar(this.partida.Jugador1);
         }
 
+        /// <summary>
+        /// Graba al jugador que cantó inicialmente un truco o un envido
+        /// </summary>
+        /// <param name="jugadorQueCanto">Jugador que cantó</param>
         private void RecordarQuienCanto(Jugador jugadorQueCanto)
         {
             if (!this.partida.Ronda.TantoCantado && !this.partida.Ronda.TrucoCantado)
@@ -601,6 +757,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Retorna al turno del jugador que inició un canto luego de que este se definiera.
+        /// </summary>
         private void VolverAlTurnoDeQuienCanto()
         {
             while (!this.partida.Ronda.Canto.EsSuTurno)
@@ -610,6 +769,11 @@ namespace TrucoArgentino
             this.RefrescarControles();
         }
 
+        /// <summary>
+        /// Realiza lo correspondiente según si se acepta truco o envido
+        /// </summary>
+        /// <param name="jugador1">Jugador 1</param>
+        /// <param name="jugador2">Jugador 2</param>
         public void Aceptar(Jugador jugador1, Jugador jugador2)
         {
             if (this.partida.Ronda.TantoCantado)
@@ -620,9 +784,13 @@ namespace TrucoArgentino
             this.VolverAlTurnoDeQuienCanto();
         }
 
-        public void Declinar(Jugador jugador)
+        /// <summary>
+        /// Realiza lo correspondiente según si se rechaza truco o envido
+        /// </summary>
+        /// <param name="jugadorPasivo">Jugador que cantó</param>
+        public void Declinar(Jugador jugadorPasivo)
         {
-            this.partida.Ronda.Declinar(jugador);
+            this.partida.Ronda.Declinar(jugadorPasivo);
             if (!this.partida.Ronda.TantoCantado)
             {
                 this.TerminarRonda();
@@ -634,11 +802,19 @@ namespace TrucoArgentino
             this.RefrescarControles();
         }
 
+        /// <summary>
+        /// Muestra el resultado de la ronda en un MessageBox
+        /// </summary>
         private void MostrarResultadoRonda()
         {
             MessageBox.Show(this.partida.Ronda.ToString(), "Resultados", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        /// <summary>
+        /// Muestra el resultado de la ronda en un MessageBox y lo guarda en la base de datos. 
+        /// De arrojarse una excepción se lanza otro MessageBox informándolo. 
+        /// Finalmente cierra la conexión acorde al requisito del método SQL.Guardar()
+        /// </summary>
         private void MostrarResultadoPartida()
         {
             if(MessageBox.Show(this.partida.ToString(), "Resultados", MessageBoxButtons.OK, MessageBoxIcon.Information)==DialogResult.OK)
@@ -658,6 +834,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Realiza las acciones correspondientes a la finalización de una ronda.
+        /// </summary>
         public void TerminarRonda() 
         {
             this.partida.Ronda.TerminarRonda();
@@ -676,6 +855,9 @@ namespace TrucoArgentino
             }
         }
 
+        /// <summary>
+        /// Refresca el reloj al pie del formulario
+        /// </summary>
         public void RefrescarReloj()
         {
             if (this.lblFechaYHora.InvokeRequired)

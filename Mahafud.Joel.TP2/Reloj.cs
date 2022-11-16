@@ -14,6 +14,9 @@ namespace Entidades
 
         public static event Delegado.DelegadoReloj TasaDeRefrescoSuperada;
 
+        /// <summary>
+        /// Setea la tasa de refresco del reloj en 1 segundo, genera un nuevo hilo asociado al método Reloj.AtualizarReloj y lo corre.
+        /// </summary>
         static Reloj()
         {
             Reloj.tasaDeRefresco = 1000;
@@ -21,15 +24,16 @@ namespace Entidades
             Reloj.hiloSecundario.Start();
         }
 
+        /// <summary>
+        /// Invoca a Reloj.TasaDeRefrescoSuperada indefinidamente cada vez que se cumple la tasa de refresco.
+        /// </summary>
         public static void ActualizarReloj()
         {
-            bool a = true;
             do
             {
-                TasaDeRefrescoSuperada.Invoke();
+                Reloj.TasaDeRefrescoSuperada.Invoke();
                 Thread.Sleep(Reloj.tasaDeRefresco);
-            } while (a);
-            a = false;
+            } while (true);
         }
     }
 }

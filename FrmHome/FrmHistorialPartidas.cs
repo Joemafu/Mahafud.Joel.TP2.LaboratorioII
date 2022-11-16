@@ -19,6 +19,12 @@ namespace TrucoArgentino
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Carga el DataGridView con el contenido de la base de datos SQL o Activa un MessageBox en caso de Excepción. 
+        /// Luego cierra la conexión tal como lo requiere el método SQL.Leer(). 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmHistorialPartidas_Load(object sender, EventArgs e)
         {
             try

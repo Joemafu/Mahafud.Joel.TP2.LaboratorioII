@@ -21,6 +21,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Serializa un objeto en XML
+        /// </summary>
+        /// <param name="objeto">Objeto genérico</param>
+        /// <param name="nombreDeArchivo">Nombre que llevará el archivo XML</param>
         public static void SerializarXML (T objeto, string nombreDeArchivo)
         {
             string path = Environment.CurrentDirectory + "\\" + nombreDeArchivo + ".XML";
@@ -32,6 +37,12 @@ namespace Entidades
             }         
         }
 
+        /// <summary>
+        /// Deserializa un objeto de un archivo XML y lo retorna.
+        /// </summary>
+        /// <param name="objeto">Objeto de tipo genérico a deserializar.</param>
+        /// <param name="nombreDeArchivo">Nombre del archivo a deserializar.</param>
+        /// <returns></returns>
         public static T DeserializarXML(T objeto, string nombreDeArchivo)
         {
             T ret = objeto;
@@ -54,13 +65,18 @@ namespace Entidades
             return ret;
         }
 
+        /// <summary>
+        /// Serializa en Json
+        /// </summary>
+        /// <param name="objeto">Objeto de tipo genérico</param>
+        /// <param name="nombreDeArchivo">Nombre del archivo Json</param>
         public static void SerializarJson (T objeto, string nombreDeArchivo)
         {
             StreamWriter sw = null;
 
             List<T> listaDeObjetos = new List<T>();
 
-            listaDeObjetos = Serializador<T>.DeserializarJson(listaDeObjetos, "Historial_De_Flores.json");
+            listaDeObjetos = Serializador<T>.DeserializarJson(listaDeObjetos, nombreDeArchivo);
 
             listaDeObjetos.Add(objeto);
 
@@ -87,6 +103,12 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Deserealiza Json
+        /// </summary>
+        /// <param name="objeto">Objeto de tipo genérico</param>
+        /// <param name="nombreDeArchivo">Nombre del archivo Json</param>
+        /// <returns></returns>
         public static List<T> DeserializarJson(List<T> objeto, string nombreDeArchivo)
         {
             StreamReader sr = null;

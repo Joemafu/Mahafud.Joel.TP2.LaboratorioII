@@ -18,6 +18,11 @@ namespace TrucoArgentino
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Carga el RichTextBox con el contenido del archivo Historial_De_Manos.txt 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmHistorialManos_Load(object sender, EventArgs e)
         {
             List<Mano> historialManosDeNaipes = new List<Mano>();

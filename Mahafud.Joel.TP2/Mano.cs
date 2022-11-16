@@ -20,6 +20,11 @@ namespace Entidades
 
         }
 
+        /// <summary>
+        /// Constructor real. Randomiza genera 3 naipes validando que no se repitan 
+        /// ordena por valor descendente y calcula los puntos de tanto o si tiene flor.
+        /// </summary>
+        /// <param name="randomizar">Recibe un booleando para randomizar. True o false es indistinto.</param>
         public Mano (bool randomizar)
         {
             this.naipes = new List<Naipe>();
@@ -144,7 +149,12 @@ namespace Entidades
             return base.GetHashCode();
         }
 
-        private bool ValidarNaipe(Naipe naipe)
+        /// <summary>
+        /// Valida que el naipe randomizado no esté repetido con otro de la mano.
+        /// </summary>
+        /// <param name="naipe">Naipe a validar.</param>
+        /// <returns>True si es válido, false caso contrario.</returns>
+        public bool ValidarNaipe(Naipe naipe)
         {
             bool ret = true;
 
@@ -160,7 +170,11 @@ namespace Entidades
             return ret;
         }
 
-        private int CalcularTanto()
+        /// <summary>
+        /// Calcula el tanto de la mano que lo invoca.
+        /// </summary>
+        /// <returns>Retorna valor del tanto.</returns>
+        public int CalcularTanto()
         {
             int ret=0;
 
@@ -172,7 +186,7 @@ namespace Entidades
                     ret += item.ValorTanto;
                 }
             }
-            else if (this.TieneTanto())
+            else if (this.CalcularSiTieneTanto())
             {
                 ret = this.CalcularTantoDoble();
             }
@@ -190,7 +204,11 @@ namespace Entidades
             return ret;
         }
 
-        private bool CalcularSiTieneFlor()
+        /// <summary>
+        /// Calcula si la Mano que lo invoca tiene flor.
+        /// </summary>
+        /// <returns>True si tiene flor. False caso contrario.</returns>
+        public bool CalcularSiTieneFlor()
         {
             bool ret = false;
 
@@ -202,7 +220,11 @@ namespace Entidades
             return ret;
         }
 
-        private bool TieneTanto()
+        /// <summary>
+        /// Calcula los casos en que la mano contiene 2 cartas del mismo palo o más.
+        /// </summary>
+        /// <returns>True si tiene al menos 2 del mismo palo.</returns>
+        public bool CalcularSiTieneTanto()
         {
             bool ret = false;
 
@@ -214,7 +236,11 @@ namespace Entidades
             return ret;
         }
 
-        private int CalcularTantoDoble()
+        /// <summary>
+        /// Calcula el valor del tanto en caso que tenga 2 del mismo palo.
+        /// </summary>
+        /// <returns>retorna valor del tanto.</returns>
+        public int CalcularTantoDoble()
         {
             int ret = 20;
 
@@ -234,6 +260,10 @@ namespace Entidades
             return ret;
         }
 
+        /// <summary>
+        /// Calcula el valor del tanto en el caso de que tenga 2 del mismo palo pero estas sean figuras.
+        /// </summary>
+        /// <returns>Retorna un decimal que sirve para ver los diferentes valores de un tanto que vale 0</returns>
         private double CalcularTantoSoloFiguras()
         {
             double ret = 0.25;
@@ -259,6 +289,10 @@ namespace Entidades
             return ret;
         }
 
+        /// <summary>
+        /// Sobreescritura de método ToString.
+        /// </summary>
+        /// <returns>Devuelve un string con el número y palo de los 3 naipes de la mano y un separador para enlistar.</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();

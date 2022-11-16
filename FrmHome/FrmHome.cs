@@ -18,6 +18,11 @@ namespace TrucoArgentino
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Instancia una nuevasala de Truco.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void nuevaPartidaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmSetPartida set = new FrmSetPartida();
@@ -27,6 +32,11 @@ namespace TrucoArgentino
             set.Show();
         }
 
+        /// <summary>
+        /// Muestra un form con el historial de manos repartidas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void historialDeManosRepartidasXMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmHistorialManos frmHistorialManos = new FrmHistorialManos();
@@ -34,6 +44,11 @@ namespace TrucoArgentino
             frmHistorialManos.ShowDialog();
         }
 
+        /// <summary>
+        /// Muestra un form con el historial de partidas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void historialDeResultadosSQLToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmHistorialPartidas frmHistorialPartidas = new FrmHistorialPartidas();
@@ -41,6 +56,11 @@ namespace TrucoArgentino
             frmHistorialPartidas.ShowDialog();
         }
 
+        /// <summary>
+        /// Muestra un form con el historial de pardas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void historialDePardasTXTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmHistorialDePardas frmHistorialDePardas = new FrmHistorialDePardas();
@@ -48,6 +68,11 @@ namespace TrucoArgentino
             frmHistorialDePardas.Show();
         }
 
+        /// <summary>
+        /// Muestra un form con el historial de flores cantadas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void historialDeFloresJSONToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmHistorialFlores frmHistorialFlores = new FrmHistorialFlores();

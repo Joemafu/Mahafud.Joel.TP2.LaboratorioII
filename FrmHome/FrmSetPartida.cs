@@ -18,6 +18,11 @@ namespace TrucoArgentino
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Setea una nueva partida si se cargaron nombres válidos (diferentes entre si y no vacíos).
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnJugar_Click(object sender, EventArgs e)
         {
             if (this.txtJugador1.Text == "" || this.txtJugador2.Text == "")
